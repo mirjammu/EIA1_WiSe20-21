@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
   <p>Portfolio</p>
@@ -14,15 +13,15 @@ body {
 </head>
 	
 <body>
-	<p>foto1</p> foto1_big
-  <p>foto2</p>
-  <p>foto3</p>
-	<P>foto4</p>
+	<p><img src="foto1.jpg"/> </p> foto1_big
+  	<p><img src="foto2.jpg"/> </p>
+  	<p><img src="foto3.jpg"/> </p>
+	<P><img src="foto4.jpg"/> </p>
   
-  <P>clip1</p>
-  <P>clip2</p>
-  <P>clip3</p>
-  <P>clip4</p>
+  <P><img src="clip1.mp4"/> </p>
+  <P><img src="clip2.mp4"/></p>
+  <P><img src="clip3.mp4"/></p>
+  <P><img src="clip4.mp4"/></p>
 	
 </body>
 	
