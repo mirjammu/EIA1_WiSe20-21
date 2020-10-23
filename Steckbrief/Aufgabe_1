@@ -13,7 +13,7 @@ body {
 </head>
 	
 <body>
-	<p><img src="foto1.jpg"/> </p> foto1_big
+	<p><a href="foto1_big"><img src="foto1.jpg"/></p> 
   	<p><img src="foto2.jpg"/> </p>
   	<p><img src="foto3.jpg"/> </p>
 	<P><img src="foto4.jpg"/> </p>
