@@ -7,13 +7,15 @@ h1 {
     font-size: 80px;
     font-weight: bold;
     text-align: center;
-    color:black;
+    color: rgb(139, 103, 55);
+    }
+h2  { color: rgb(139, 103, 55);
     }
 .banner {
     margin-left: 30%;
     width: 50%;
     height: 100px;
-    background-color: white;
+    background-color: rgb(245, 241, 220);
     }
 .fotos {
     text-align: center;
@@ -21,11 +23,11 @@ h1 {
 .navigation {
     font-family: sans-serif;
     text-align: right;
-    background-color: black;
+    background-color:rgb(245, 241, 220);
     }
 .navigation a {
     margin: 5px;
-    color: white;
+    color: rgb(139, 103, 55);
     text-decoration: none;
     }
 .navigation a:hover {
@@ -44,3 +46,21 @@ h1 {
 .socialmedia:hover {
     opacity: 100%;
     }
+.contactformular {
+    }
+    #agb  {
+        color: rgb(139, 103, 55);
+        }
+    #daten {
+        width: 25%;
+        padding: 7px;
+        margin-bottom: 10px;
+        background-color: rgb(245, 241, 220); 
+        }
+    #message {
+        width: 40%;
+        height: 100px;
+        margin-bottom: 10px;
+        background-color:rgb(245, 241, 220);
+        }
+           
