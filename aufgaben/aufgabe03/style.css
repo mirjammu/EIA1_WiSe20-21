@@ -1,0 +1,46 @@
+html {
+    font-family: sans-serif;
+    background-image: url("images/bg.png");
+    text-align: center;
+    } 
+h1 {
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    color:black;
+    }
+.banner {
+    margin-left: 30%;
+    width: 50%;
+    height: 100px;
+    background-color: white;
+    }
+.fotos {
+    text-align: center;
+    }
+.navigation {
+    font-family: sans-serif;
+    text-align: right;
+    background-color: black;
+    }
+.navigation a {
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+    }
+.navigation a:hover {
+    color: orange;
+    }
+    #openside {
+        color: orange;
+        }
+.navigationpages {
+    font-family: sans-serif;
+    text-align: center;
+    }
+.socialmedia {
+    opacity: 30%;
+    }
+.socialmedia:hover {
+    opacity: 100%;
+    }
