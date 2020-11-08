@@ -13,9 +13,10 @@ h2  { color: rgb(139, 103, 55);
     }
 .banner {
     margin-left: 30%;
-    width: 50%;
-    height: 100px;
+    width: 30%;
+    height: 200px;
     background-color: rgb(245, 241, 220);
+    border-radius: 50% 10% 50% 20%;
     }
 .fotos {
     text-align: center;
