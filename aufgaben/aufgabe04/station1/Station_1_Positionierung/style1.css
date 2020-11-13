@@ -1,0 +1,40 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url("images/bg2.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.karte {
+    position: relative;
+   
+}
+
+.busch {
+    position: absolute;
+    top: -50px;
+    left: -60px;
+}
+
+.pinguin {
+    position: absolute;
+    top: 220px;
+    left: 470px;
+    
+}
+
+h2 {
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    color:white;
+    text-align: center;
+    font-size: 250%;
+}
+
+

@@ -1,0 +1,74 @@
+body {
+    background-image: url("bg.png");
+}
+
+.karte {
+    background-image: url("wrapperbg.png");
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -200px;
+    margin-left: -300px;
+}
+
+.text1 {
+    width: 235px;
+    height: 100px;
+    color: white;
+    text-align: justify;
+    position: absolute;
+    left: 40px;
+    top: 95px;
+}
+
+.text2 {
+    width: 235px;
+    height: 100px;
+    color: white;
+    text-align: justify;
+    position: absolute;
+    right: 40px;
+    top: 95px;
+}
+
+.text3 {
+    width: 150px;
+    height: 100px;
+    color: white;
+    text-align: justify;
+    position: absolute;
+    left: 40px;
+    bottom: 90px;
+}
+
+.text5 {
+    width: 150px;
+    height: 100px;
+    color: white;
+    text-align: justify;
+    position: absolute;
+    right: 40px;
+    bottom: 90px;
+}
+
+.text4 {
+    width: 150px;
+    height: 100px;
+    color: white;
+    text-align: justify;
+    position: absolute;
+    right: 225px;
+    bottom: 90px;
+}
+
+
+.ueberschrift {
+        color: white;
+        position: absolute;
+        top: 25px;
+        left: 40px;
+        font-size: 15px;
+
+    }

@@ -1,0 +1,53 @@
+body {
+    background-image: url("bg.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 750px;
+}
+
+.karte {
+    position: relative;
+   
+}
+
+
+.merrychristmas {
+    position: absolute;
+    left: 150px;
+    top: 70px;
+    color:white;
+    text-align: center;
+    font-size: 200%;
+}
+
+.stern {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+.stern1  {
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
+.stern2  {
+    position: absolute;
+    left: 70px;
+    top: 300px;
+}
+.stern3  {
+    position: absolute;
+    left: 320px;
+    top: 250px;
+}
+.stern4  {
+    position: absolute;
+    left: 490px;
+    top: 200px;
+}
+.stern1:hover, .stern2:hover,
+.stern3:hover, .stern4:hover{
+    background-image: url("stern_hover.png");
+} 

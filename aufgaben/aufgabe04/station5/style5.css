@@ -1,0 +1,52 @@
+body {
+    background-image: url(bg.png);
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.karte {
+    position: relative;
+}
+
+
+.formular {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    color: white;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.feld1 {
+    position: absolute;
+    top: 10px;
+}
+
+
+.feld2 {
+    position: absolute;
+    top: 160px;
+    left: 40px;
+    color: white;
+}
+
+.feld3 {
+    position: absolute;
+    top: 250px;
+    left: 40px;
+    color: white;
+}
+
+.feld4 {
+    position: absolute;
+    top: 340px;
+    left: 40px;
+}
