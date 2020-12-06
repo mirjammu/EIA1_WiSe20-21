@@ -1,0 +1,117 @@
+html {
+    height: 100%;
+    
+}
+
+body {
+    height: 100%;
+    background-color: black;
+    background-size: 100%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.drumpad {
+    position: relative;
+    height: 490px;
+    width: 490px;
+}
+
+.pad1 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-image: linear-gradient( #4747f3,  #6e6eee);
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+}
+
+.pad2 {
+    position: absolute;
+    top: 10px;
+    left: 170px;
+    background-image: linear-gradient(#6a6af0,#9696eb);
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+}
+
+.pad3 {
+    position: absolute;
+    top: 10px;
+    left: 330px;
+    background-image: linear-gradient(#9a9aec,#5538d8);
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+}
+
+.pad4 {
+    position: absolute;
+    top: 170px;
+    left: 10px;
+    background-image: linear-gradient(#8d40cc,#b575da);
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+}
+
+.pad5 {
+    position: absolute;
+    top: 170px;
+    left: 170px;
+    background-image: linear-gradient(#c27fcf,#b643b6);
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+}
+
+.pad6 {
+    position: absolute;
+    top: 170px;
+    left: 330px;
+    background-image: linear-gradient(#cf7fcf,#c92caf);
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+}
+
+.pad7 {
+    position: absolute;
+    top: 330px;
+    left: 10px;
+    background-image: linear-gradient(#be3585,#c7577c);
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+}
+
+.pad8 {
+    position: absolute;
+    top: 330px;
+    left: 170px;
+    background-image: linear-gradient(#be3535,#e45a31);
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+}
+
+.pad9 {
+    position: absolute;
+    top: 330px;
+    left: 330px;
+    background-image: linear-gradient(#e97b3b,#fa881c);
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+}
+
+
+.play {
+    position: absolute;
+    top: 480px;
+    left: 170px;
+}
