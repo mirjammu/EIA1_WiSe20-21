@@ -1,0 +1,92 @@
+html{
+    height: 100%;
+}
+
+body {
+    background-color: #a9a5aa;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.drum-flexbox {
+    margin-top: 7%;
+    display: flex;
+    width: 500px;
+    height: 550px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.drumbutton {
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+}
+.drumbutton:hover {
+    cursor: pointer;
+}
+
+i {
+    font-size: 40px;
+    margin-left: 5%;
+}
+
+i:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+#stop {
+    color: #ffffff;
+}
+#record-red {
+    color: #ffffff;
+}
+.isHidden {
+    display: none !important;
+}
+
+/*Drum-buttons style*/
+#drum1 {
+    background-image: linear-gradient( #4747f3,  #6e6eee);
+}
+
+
+#drum2 {
+    background-image: linear-gradient(#6a6af0,#9696eb);
+}
+
+
+#drum3 {
+    background-image: linear-gradient(#9a9aec,#5538d8);
+}
+
+
+#drum4 {
+    background-image: linear-gradient(#8d40cc,#b575da);
+}
+
+#drum5 {
+    background-image: linear-gradient(#c27fcf,#b643b6);
+}
+
+#drum6 {
+    background-image: linear-gradient(#cf7fcf,#c92caf);
+}
+
+#drum7 {
+    background-image: linear-gradient(#be3585,#c7577c);
+}
+
+#drum8 {
+    background-image: linear-gradient(#be3535,#e45a31);
+}
+
+#drum9 {
+    background-image: linear-gradient(#e97b3b,#fa881c);
+}
+
+
