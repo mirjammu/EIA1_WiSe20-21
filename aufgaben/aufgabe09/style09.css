@@ -1,0 +1,86 @@
+body {
+    background-image: url(20200302_202126\ \(3\).jpg);
+    height: 100%;
+    font-family: sans-serif;
+}
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 70px;
+}
+h2 {
+    color: #e3dfe6;
+    background-color: #7a6480;
+    text-align: center;
+}
+#counter {
+    font-size: 24px;
+}
+#new-task {
+    margin-left: 23%;
+    width: 53.5%;
+    height: 50px;
+    font-size: 23px;
+    background-color: #fafbfc;
+    color:  #493e58;
+}
+::placeholder{
+    color: #493e58;
+    opacity: 1;
+}
+
+
+#counter {
+    font-size: 23px;
+}
+
+div{
+    position: relative;
+    width: 54%;
+    height: 70px;
+    background-color: #493e58;
+    margin: 0 auto 3px auto;
+    color: #b6b2bd;
+}
+.task-text {
+    position: absolute;
+    margin-left: 6px;
+    margin-top: 22px;
+    font-size: 23px;
+}
+.isHidden {
+    display: none !important;
+}
+.fa-circle{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+    color: #e3dfe6;
+}
+.fa-circle:hover {
+    cursor: pointer;
+}
+.fa-check-circle{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+    color: #e3dfe6;
+}
+.fa-check-circle:hover {
+    cursor: pointer;
+}
+.fa-trash-alt{
+    position: absolute;
+    margin-top: 20px;
+    left: 95%;
+    opacity: 50%;
+    font-size: 30px;
+    color: #78737e;
+    transition: all 0.4s ease-out;
+}
+.fa-trash-alt:hover {
+    cursor: pointer;
+    opacity: 100%;
+}
