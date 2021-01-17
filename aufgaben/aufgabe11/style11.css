@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(20200302_202126\ \(3\).jpg);
+}
+
+h1  {
+    font-size: 50px;
+    color: rgb(230, 198, 236);
+}
+
+#explain  {
+    color: rgb(50, 39, 54);
+}
+
+main {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#counter, #done, #open {
+    color: rgb(252, 252, 252);
+}
+
+
+.inputGroup {
+    position: relative;
+}
+#inputTodo {
+    background: white;
+    font-size: 20px;
+    padding: 20px 50px;
+    border: none;
+    width: 100%;
+    height: 64px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+#addButton {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 30px;
+    background: none;
+    border: none;
+    outline: none;
+    color: rgb(93, 80, 95);
+    cursor: pointer;
+}
+#addButton:hover {
+    color: rgb(35, 23, 41);
+}
+.buttonBox{
+    height: 50px;
+    width: 80px;
+    position: relative;
+    
+
+    
+
+}
+.fa-microphone-alt-slash{
+    position: absolute;
+    right: 50px;
+    top: 5px;
+    font-size: 20px;
+    background: none;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.fa-microphone-alt-slash:hover{
+    color: rgb(36, 23, 39);
+}
+.fa-microphone-alt{
+    position: absolute;
+    right: 100px;
+    top: 5px;
+    font-size: 20px;
+    background: none;
+    border: none;
+    outline: none;
+    color: rgb(252, 252, 252);
+    cursor: pointer;
+
+}
+.fa-microphone-alt:hover{
+    color:  rgb(36, 23, 39);
+}
+
+#todos {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.42);
+}
+
+.todo {
+    text-align: left;
+    position: relative;
+    font-size: 20px;
+    padding: 20px 50px;
+    background: white;
+    border-bottom: 1px solid grey;
+}
+
+.check {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+}
+.check i {
+    position: relative;
+    left: 5px;
+    top: 5px;
+}
+.check.false i {
+    display: none;
+}
+
+.trash {
+    position: absolute;
+    right: 25px;
+    top: 20px;
+    color: grey;
+    cursor: pointer;
+}
+
+.trash:hover {
+    color: rgb(36, 23, 39);
+}
